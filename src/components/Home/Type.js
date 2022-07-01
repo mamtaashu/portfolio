@@ -3,13 +3,16 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
+    <Typewriter 
+
       options={{
         strings: [
-          "Developer",
-          "Deep Learning Engineer",
+           "HTML",
+           "CSS",
+           "JavaScript",
+      
           "MERN Stack Developer",
-          "Open Source Contributor",
+      
         ],
         autoStart: true,
         loop: true,

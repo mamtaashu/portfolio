@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
+  DiHTML,
   DiReact,
   DiNodejs,
   DiMongodb,
@@ -14,29 +14,37 @@ import {
   SiFirebase,
   SiNextdotjs,
 } from "react-icons/si";
+import {  FaHtml5} from "react-icons/fa";
+import {FaCss3Alt} from "react-icons/fa"
+import {FaJs} from "react-icons/fa";
+import {FaReact} from "react-icons/fa";
+import {FaGithub} from "react-icons/fa"
+
+import { AiFillDownCircle } from "react-icons/ai";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <FaHtml5/>
+    
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <FaCss3Alt />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <FaJs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <FaReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <FaGithub />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -47,7 +55,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

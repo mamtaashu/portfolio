@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import licious  from "../../Assets/Projects/licious.png"
+import discoveryPlus  from "../../Assets/Projects/discoveryPlus.png"
 
 function Projects() {
   return (
@@ -23,27 +25,32 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+                 imgPath={licious}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Licious - Clone"
+              description="   A website in which user can order online food. 
+              Tools : HTML | CSS | JavaScript. 
+              A collaborative project built by a team of 5,executed in a week.
+              Features : Users can login to the website.
+                         The users can can select the food items and add it to cart.
+                         Users can order  online food."
+              ghLink="https://github.com/MeenuKatariya/licious-clone.git"
+              demoLink="https://bright-tapioca-98b677.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={discoveryPlus}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Discover Plus - Clone"
+              description="A website in which user can watch serial, movies. A collaborative project built by a team of 5,executed in a week.Tools : HTML | CSS | JavaScript | Json-Server.Features :Users can register and login to the website,watch videos.Users can take premium for particular videos."
+              ghLink="https://github.com/MeenuKatariya/Discovery-Clone"
+              demoLink="https://officialsiddharthbisht.github.io/Discovery-Clone/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -60,7 +67,7 @@ function Projects() {
               isBlog={false}
               title="Plant AI"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="h"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
@@ -86,7 +93,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
