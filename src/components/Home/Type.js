@@ -10,8 +10,10 @@ function Type() {
            "HTML",
            "CSS",
            "JavaScript",
+           "React",
+           "Redux",
       
-          "MERN Stack Developer",
+          "MERN",
       
         ],
         autoStart: true,

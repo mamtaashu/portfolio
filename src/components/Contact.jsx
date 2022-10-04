@@ -1,21 +1,26 @@
-import React from "react";
+// import React from "react";
 import {
     AiFillGithub,
     } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
-  import Navbar from "react-bootstrap/Navbar";
+  // import Navbar from "react-bootstrap/Navbar";
   import "./contact.css";
   import {FiPhoneCall} from "react-icons/fi"
   import {SiGmail} from "react-icons/si";
+  
 
 function Contact()
 {
    return(
-    <>  
+    <div style={{display:'flex',flexDirection:'row', justifyContent:'center',flexWrap:'wrap'}} id="contactNavbar"> 
+    {/* <h1 style={{marginTop:100, color:"white", textAlign:"center"}}>Contact To Me </h1>  */}
+    <div>
+    <img width={400} src="https://jorgeartola.com/wp-content/uploads/ja_web2018_contact_callme_09.gif" alt="" />
+    </div>
         <div   className="big-div" >
         {/* <p >Meenu Katariya</p> */}
-        
-        <div  className="allLogo">
+
+        <div  className="allLogo"  style={{fontFamily:"sans-serif"}}>
 
         <a href="#"  style={{color:"white"}} > <FiPhoneCall   /></a>
 
@@ -64,7 +69,7 @@ function Contact()
               https://www.linkedin.com/in/meenu-katariya/
               </div>
               </div>
-    </>
+    </div>
 
    )
 }

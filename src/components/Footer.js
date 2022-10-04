@@ -11,8 +11,8 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container  style={{bottom:0}} fluid className="footer">
-      <Row>
+    <Container  style={{position:'fixed'}} fluid className="footer">
+      <Row >
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Meenu Katariya</h3>
         </Col>

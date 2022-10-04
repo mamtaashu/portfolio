@@ -57,9 +57,10 @@ import { AiOutlineDownload } from "react-icons/ai";
 // }
   
 
- <a   >
-  https://drive.google.com/file/d/1wx37Bx3DGd4YvjHPWD-io1UxgXR6XsM7/view?usp=sharing
- </a>
+ <a>
+
+https://drive.google.com/drive/u/1/folders/1DgHOpeLWvsPrTZxLtuCwwvV189Gxz8PE target="blank" </a>
+
 
 
 // export default ResumeNew;

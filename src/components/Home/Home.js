@@ -7,7 +7,8 @@ import Type from "./Type";
 
 function Home() {
   return (
-    <section>
+    <div id="homeSection">
+      <section >
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -26,16 +27,19 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
+                <h3> I am a passionate Full Stack Web developer who focuses on developing clean and user-friendly applications using  </h3>
+
                 <Type />
+                {/* <h3>and some other cool libraries and frameworks.</h3> */}
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src="https://t4.ftcdn.net/jpg/04/40/03/73/360_F_440037301_xI59ve0rg2gtWdLY8KT93gqJsbfDivcV.jpg"
+            <Col md={5} style={{ paddingBottom: 20}}>
+              <img  
+                  src="https://c.tenor.com/7tlM7VOBit8AAAAC/night-tutorials-indo-hanging-light.gif"
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px", borderradius:"20px" }}
+                style={{ maxHeight: "450px", borderRadius:"60px" ,marginTop:"100px" }}
               />
             </Col>
             
@@ -46,6 +50,7 @@ function Home() {
       
       <Home2 />
     </section>
+    </div>
   );
 }
 

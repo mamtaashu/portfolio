@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Meenu Katariya </span>
             from <span className="purple"> Haryana, India.</span>
-            <br />I am learning full stack web developer from Masai School, Bangluru.
+            <br />I am learning Full Stack Web Development.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
