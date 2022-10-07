@@ -108,7 +108,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
             {/* <button style={{marginTop:"5px" }} >   */}
-            <a  target="_blank" href="https://drive.google.com/drive/u/1/folders/1DgHOpeLWvsPrTZxLtuCwwvV189Gxz8PE"><button style={{marginTop:"7px" }}>Resume</button></a>
+            <a  target="_blank" href="https://drive.google.com/file/d/1eSVCB1ukqhR0bCRFLUNbv_R86pkdSKYn/view?usp=sharing"><button style={{marginTop:"7px" }}>Resume</button></a>
             {/* <CgFileDocument style={{ marginBottom: "2px" }}  */}
             {/* Resume  */}
               {/* </button> */}
