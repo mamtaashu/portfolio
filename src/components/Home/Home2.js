@@ -51,9 +51,9 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" >
             <Tilt>
-              <img src="/meenu.jpeg" style={{borderRadius:"50%", transform:"scale(0.8)"}} className="img-fluid" alt="avatar" />
+              <img src="./mamta.jpeg" style={{borderRadius:"50%", transform:"scale(0.8)" ,heigth:"100px"}} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

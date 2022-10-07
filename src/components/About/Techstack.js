@@ -62,7 +62,7 @@ function Techstack() {
         <p style={{fontSize:25}}>Redux</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         < FaNodeJs color="var(--bs-purple)" />
         <p style={{fontSize:25}}>Node JS</p>
       </Col>
@@ -73,7 +73,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         < SiExpress color="var(--bs-purple)" />
         <p style={{fontSize:25}}>Express</p>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
      <SiMaterialui color="var(--bs-purple)" />
 <p style={{fontSize:25}}>Material ui</p>

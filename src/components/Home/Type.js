@@ -13,7 +13,7 @@ function Type() {
            "React",
            "Redux",
       
-          "MERN",
+           "Frontend",
       
         ],
         autoStart: true,

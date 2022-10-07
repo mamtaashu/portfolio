@@ -11,7 +11,12 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import licious  from "../../Assets/Projects/licious.png"
 import discoveryPlus  from "../../Assets/Projects/discoveryPlus.png"
 import imdb from "../../Assets/Projects/imdb.png";
+import dice from "../../Assets/Projects/dice.jpeg"
+import sudoku from "../../Assets/Projects/sudoku.png"
+import githubRepo from "../../Assets/Projects/githubRepo.png"
+import todo from "../../Assets/Projects/todo.png"
 import anthropologie from "../../Assets/Projects/anthropologie.png";
+import movie from "../../Assets/Projects/movie.png"
 function Projects() {
   return (
    <div id="projectsNavbar">
@@ -28,69 +33,67 @@ function Projects() {
            
         <Col md={4} className="project-card">
             <ProjectCard
-                 imgPath={imdb}
+                 imgPath={githubRepo}
               isBlog={false}
-              title="IMDb - Clone"
-              description="   A web application in which user can watch movies trailers, give ratings to trailers. 
-              Tools : React | Redux | JSON-Server | Material-Ui | Styled Components 
-              A collaborative project built by a team of 4, executed in a week.
-              Features : Signup, Login, Google Signup, Login Integration,
-              Watch Trailers, Watchlist,
-              Clear Watchlist History,
-              Rating Trailers,
-              Filter and sorting movies. "
-              ghLink="https://github.com/MeenuKatariya/imdbclone"
-              demoLink="https://62f1166bb465cf7b970869f9--imdbclone-masai.netlify.app/"
-            />
-          </Col>
-          
-          
-          
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-                 imgPath={licious}
-              isBlog={false}
-              title="Licious - Clone"
-              description="   A web application in which user can order online food. 
-              Tools : HTML | CSS | JavaScript. 
-              A collaborative project built by a team of 5,executed in a week.
-              Features : Users can login to the website.
-                         The users can can select the food items and add it to cart.
-                         Users can order  online food."
-              ghLink="https://github.com/MeenuKatariya/licious-clone.git"
-              demoLink="https://bright-tapioca-98b677.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={discoveryPlus}
-              isBlog={false}
-              title="Discover Plus - Clone"
-              description="A web application in which user can watch serial, movies. Tool Stack: HTML | CSS | JavaScript | JSON-Server. A collaborative project built by a team of 5, executed in a week.&nbsp Features : Users can register and login to the website, watch videos. Users can take premium for particular videos."
-              ghLink="https://github.com/MeenuKatariya/Discovery-Clone"
-              demoLink="https://officialsiddharthbisht.github.io/Discovery-Clone/"
-            />
-          </Col>
-         
-          <Col md={4} className="project-card">
-            <ProjectCard
-                 imgPath={anthropologie}
-              isBlog={false}
-              title="Anthropologie - Clone"
-              description="  A web application for buying ladies clothes. Tech Stack :  React | Redux | JSON Server | Styled Components | Material-Ui. Collaboration with 3 team members completed the project in seven days. Features :
-              Signup, Login,
-              All Products Page - with Filter & Sort Functionality,
-              Single Product Page (dynamic),
-              Add To Cart Feature,
-              Checkout, Payment along with all Functionality.
+              title="Github - Repository Finder"
+              description="  A search engine using github search api which allows you to search for repositories.
+               TOOL STACK : HTML | CSS | JavaScript | React | Axios. Individual Project built by me in 1 day. Features : Search for repositories, sort according to thr date, last updated, pagination and repositories per page limit control.
                  "
-              ghLink="https://github.com/MeenuKatariya/Anthropologie"
-              demoLink="https://anthropologie1.netlify.app/"
+              ghLink="https://github.com/mamtaashu/Github-finder"
+              demoLink="https://github-repo-finder-roan.vercel.app/"
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+                 imgPath={todo}
+              isBlog={false}
+              title="Todo - App"
+              description="A web application for making todo, delete todo .
+               TOOL STACK : React | Redux | Json-Server. Individual Project built by me in 1 day. Features : Signup | Login | Add todo.
+                 "
+              ghLink="https://github.com/mamtaashu/todo_react_redux"
+              demoLink="https://todo-teal-alpha.vercel.app/todo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                 imgPath={sudoku}
+              isBlog={false}
+              title="Sudoku Solver"
+              description="  Here you can solve Sudoku just give your unsolved sudoku to thr app and then click on solve and its done.
+               TOOL STACK : React. Individual Project built by me in 1 day. Features : Create a random sudoku puzzle | solve any sudoku puzzle | reset sudoku  .
+                 "
+              ghLink="https://github.com/mamtaashu/Sudoku-app"
+              demoLink="https://sudoku-solver-by-akash.netlify.app/"           />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                 imgPath={dice}
+              isBlog={false}
+              title="Dice - Roll"
+              description="  Here you can roll the dice and get the winner who has maximum number.
+               TOOL STACK : HTML | CSS | JavaScript. Individual Project built by me in 1 day. Features : Roll the dice and get the winner with maximum number.
+                 "
+              ghLink="https://github.com/mamtaashu/how-js-works"
+              demoLink="https://glittering-sprite-03cbe2.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                 imgPath={movie}
+              isBlog={false}
+              title="Movie - Search"
+              description="  Here you can search the movie.
+               TOOL STACK : HTML | CSS | JavaScript. Individual Project built by me in 1 day. Features : Signup | Login | Search Movie.
+                 "
+              ghLink="https://github.com/mamtaashu/search_movie_app"
+              demoLink="https://fantastic-madeleine-920159.netlify.app/"
+            />
+          </Col>
+              
 
 
 

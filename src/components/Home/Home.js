@@ -23,11 +23,11 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Meenu Katariya</strong>
+                <strong className="main-name"> Mamta Katariya</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <h3> I am a passionate Full Stack Web developer who focuses on developing clean and user-friendly applications using  </h3>
+                <h3> I am a passionate Frontend developer who focuses on developing clean and user-friendly applications using  </h3>
 
                 <Type />
                 {/* <h3>and some other cool libraries and frameworks.</h3> */}

@@ -25,16 +25,16 @@ function Contact()
         <a href="#"  style={{color:"white"}} > <FiPhoneCall   /></a>
 
        
-         9518058531
+         8814811656
       
         </div>
            
              <div className="allLogo">
               
-            <a href="mailto:meenukatariya2330@gmail.com"   style={{color:"white"}}>
+            <a href="mailto:mamtaashu926@gmail.com"   style={{color:"white"}}>
             <SiGmail/>
             </a>
-            meenukatariya2330@gmail.com
+            mamtaashu926@gmail.com
             </div>
 
 
@@ -43,14 +43,14 @@ function Contact()
   
           <div  className="allLogo">
           <a                                                                 
-                href="https://github.com/MeenuKatariya"
+                href="https://github.com/mamtaashu"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
-              https://github.com/MeenuKatariya
+              https://github.com/mamtaashu
           </div>
 
 
@@ -58,7 +58,7 @@ function Contact()
 
          <div className="allLogo"> 
             <a
-                href="https://www.linkedin.com/in/meenu-katariya/"
+                href="https://www.linkedin.com/in/mamta-katariya-540647233/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -66,7 +66,7 @@ function Contact()
                 <FaLinkedinIn />
               </a>
 
-              https://www.linkedin.com/in/meenu-katariya/
+              https://www.linkedin.com/in/mamta-katariya-540647233/
               </div>
               </div>
     </div>

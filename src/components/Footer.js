@@ -14,7 +14,7 @@ function Footer() {
     <Container  style={{position:'fixed'}} fluid className="footer">
       <Row >
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Meenu Katariya</h3>
+          <h3>Designed and Developed by Mamta Katariya</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} MK</h3>
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
             <a                                                                 
-                href="https://github.com/MeenuKatariya"
+                href="https://github.com/mamtaashu"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/meenu-katariya/"
+                href="https://www.linkedin.com/in/mamta-katariya-540647233/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
